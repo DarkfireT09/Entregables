@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 
+body {
+    font-family: 'Mulish', sans-serif;
+}
 
 h1 {
     text-align: center;
@@ -10,6 +13,7 @@ h1 {
 h3 {
     text-align: center;
     font-family: 'Mulish', sans-serif;
+    font-weight: bold;
 }
 
 h2 {
@@ -34,4 +38,50 @@ td {
 h5 {
     font-weight: normal;
     font-family: 'Mulish', sans-serif;
+}
+
+ul {
+    color: #15a085;
+    font-weight: 700;
+    text-align: center;
+    font-size: 24pt;
+}
+
+li {
+    color: black;
+    font-size: 12pt;
+    font-weight: normal;
+    list-style: none;
+    text-align: left;
+}
+
+li::before{
+    background-image: url(https://th.bing.com/th/id/R.c180b66adf555a9ac85504db1862a9e1?rik=3gx8p71RXsUA0w&riu=http%3a%2f%2fwww.abcpedia.com%2fwp-content%2fuploads%2f2015%2f08%2fdibujo-forma-flor.png&ehk=iE8bKGY%2fA9mtI2hmZ9Zt8hkyAiOLOhP%2bM87KtaT%2fKoY%3d&risl=&pid=ImgRaw&r=0);
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    display: inline-block;
+    content: "";
+    background-repeat: no-repeat;
+}
+
+th {
+    background-color: #15a085;
+    text-align: center;
+    border: 4px solid;
+    color: white;
+    border-color: black;
+    height: 50px;
+    width: 50px;
+}
+
+td {
+    text-align: left;
+    border: 4px solid;
+    height: 40px;
+}
+
+table {
+    border: 4px solid;
+    border-collapse: collapse;
 }
