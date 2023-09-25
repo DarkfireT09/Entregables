@@ -1,0 +1,46 @@
+table {
+    background-color: #15a085;
+    border: 4px dashed yellow;
+    margin: 50px;
+    width: 1200px;
+    padding: 30px 30px 30px 30px;
+}
+
+th {
+    text-align: left;
+    font-size: 36pt;
+    font-weight: bolder;
+    color: white;
+    height: 100px;
+}
+
+td {
+    text-align: left;
+    font-size: 16pt;
+    color: white;
+}
+
+tr {
+    margin: 100px;
+}
+
+
+img {
+    width:200px;
+    height: 250px;
+}
+
+a:link{
+    color: blue;
+    font-style: italic;
+}
+
+a:visited{
+    color: yellow;
+    font-style: italic;
+}
+
+a:hover{
+    color: red;
+    font-style: italic;
+}
