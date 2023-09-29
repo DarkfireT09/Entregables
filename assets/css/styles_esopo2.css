@@ -1,0 +1,24 @@
+.esopo {
+    margin: 50px auto;
+    width: 800px;
+    padding: 30px 30px 30px 30px;
+    border: 4px dashed yellow;
+    background-color: #15a085;
+    color: white;
+}
+
+.homero {
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
+
+.esopo img {
+    float: left;
+    margin-right: 10px;
+    width: 120px;
+}
+
+.esopo p {
+    text-align: justify;
+}

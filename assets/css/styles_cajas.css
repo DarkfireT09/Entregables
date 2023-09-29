@@ -1,0 +1,36 @@
+.primero_es_como_p_pero_tactico {
+    color: aqua;
+    font-style: italic;
+    text-align: right;
+}
+
+.segundo_joder_y_encima_tactico {
+    color: red;
+    text-decoration: line-through;
+    text-align: center;
+
+}
+
+.tercero_este_no_es_tactico {
+    color: blue;
+    text-transform: uppercase;
+    text-align: justify;
+
+}
+
+h2 {
+    color: blueviolet;
+    font-size: 36pt;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#tituloTactico {
+    text-align: right;
+}
+
+.homero {
+    font-style: italic;
+    text-decoration: underline;
+    color: #FCFC34;
+}
