@@ -61,3 +61,20 @@ body {
 .personaje p {
     text-align: justify;
 }
+
+.boton {
+    text-align: center;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+li {
+    background: url(../img/imagenes/lunalista.png) no-repeat left top;
+    height: 34px;
+    padding-top: 7px;
+    padding-left: 44px;
+  }
