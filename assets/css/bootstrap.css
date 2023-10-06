@@ -1,0 +1,7 @@
+.d-flex {
+    flex: min-content;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
