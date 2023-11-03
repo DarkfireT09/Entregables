@@ -41,3 +41,29 @@ function multiplicacion(num1, num2) {
 function division(num1, num2) {
     return num1 / num2;
 }
+
+function modulo(num1, num2){
+    return num1 % num2;
+}
+
+let op = parseInt(prompt('1 -> suma, 2 -> resta, 3 -> multiplicación, 4 -> división, 5 -> modulo '))
+
+switch(op){
+    case 1:
+        window.alert(suma(num1, num2))
+    
+    case 2:
+        window.alert(resta(num1, num2))
+    
+    case 3:
+        window.alert(multiplicacion(num1, num2))
+
+    case 4:
+        window.alert(division(num1, num2))
+    
+    case 5:
+        window.alert(modulo(num1, num2))
+    
+    default:
+        window.alert('Manco')
+}
