@@ -29,7 +29,6 @@ function lanzar(){
 function ganaste(dinero,apuesta){
     console.log('Ganaste');
     return dinero + apuesta*2;
-
 }
 
 function perdiste(dinero,apuesta){
