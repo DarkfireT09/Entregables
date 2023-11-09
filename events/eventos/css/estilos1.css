@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+body{
+	background-size: cover;
+}
+.card{
+	text-align: center;
+  margin: 100px auto;
+}
+.ejercicios{
+background-color: pink;
+}
+.gallery{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-gap: 10px;
+}
+
+.gallery_items{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 5px solid black;
+	cursor: pointer;
+}
+
+.red{
+	background-color: red;
+}
